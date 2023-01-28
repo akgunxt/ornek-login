@@ -1,0 +1,34 @@
+* {
+  text-align: center;
+  padding: 5px 15px;
+}
+
+body{
+  padding: 30px 40px;
+}
+input {
+  border-radius: 3ch;
+}
+input :placeholder-shown{
+  color: azure;
+  background-color: #0F3460;
+  font-size: 15px;
+  padding: 3px 5px;
+  border-radius: 3ch;
+  border-style: inherit;
+}
+
+.main {
+  border: 1px solid #282A3A;
+  border-radius: 3ch;
+  background-color: #EAEAEA;  
+  border-style: inherit;
+  padding: 40px 25px;
+}
+
+legend {
+  color: #F7F6DC;
+  background-color: #7895B2;
+  border-radius: 5px;
+}
+

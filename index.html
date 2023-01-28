@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Port</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body onload="setInterval(step,100)">
+
+  <div class="main">
+  <form>
+    <!--giriş ve kayıt ol kısmı-->
+      <legend><b>Giriş Yap</b></legend> <br>
+      <label for="kullaniciadi">Kullanıcı Adı:</label> <br />
+      <input type="text" id="kullaniciadi" name="kullaniciadi" placeholder="Kullanıcı Adı" required> <br>
+      <label for="password">Şifre:</label> <br>
+      <input type="password" id="password" name="password" placeholder="Şifre" required> <br> <br>
+      <input type="submit" id="gonder-btn">
+      <input type="reset" id="rest-btn">
+    </form>
+  </div>
+  <br>
+  <div class="website">
+    <label for="webs-btn" style="font-size: 20px; background-color: #D6E4E5; border-radius: 6px;">creater website</label>  <br> <hr style="padding: 0.1px 100px;" width="50" color="#0F3460" size="0.1px">
+    <input type="button" id="webs-btn"  value="website" 
+    style="border-style: inherit; color: cadetblue; font-size: 12px; padding:10px 25px;">
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
